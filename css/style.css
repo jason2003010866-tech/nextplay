@@ -374,3 +374,51 @@ body[data-category] #category-grid > article {
     justify-content: space-between;
   }
 }
+
+/* PlayScope 手機版分類頁優化 */
+@media (max-width: 720px) {
+
+  /* 縮小深藍色區塊 */
+  body[data-category] .category-hero {
+    min-height: 0;
+    margin-top: 12px;
+    padding: 24px 20px;
+    border-radius: 12px;
+  }
+
+  /* 標題間距 */
+  body[data-category] .category-hero .eyebrow {
+    margin-bottom: 10px;
+  }
+
+  body[data-category] .category-hero h1 {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+
+  /* 縮小介紹文字的上下間距 */
+  body[data-category] .category-hero-desc {
+    margin: 10px 0 16px;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  /* 縮小標籤 */
+  body[data-category] .category-tags {
+    gap: 7px;
+  }
+
+  body[data-category] .category-tags span {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+
+  /* 隱藏右側裝飾星星 */
+  body[data-category] .category-hero-icon {
+    display: none;
+  }
+
+}
+body[data-category] .category-hero-icon {
+  display: none;
+}
