@@ -82,6 +82,67 @@
   }
 }
 
+/* PlayScope Header 最終微調 */
+
+/* Logo 與文字整體向左移動 */
+.site-header .header-inner {
+  max-width: 1280px;
+  padding-left: 0;
+  padding-right: 24px;
+}
+
+/* Logo 與文字並排 */
+.site-header .brand {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-shrink: 0;
+}
+
+/* Logo 圖片 */
+.site-header .site-logo {
+  height: 60px;
+  width: auto;
+  max-width: 200px;
+  object-fit: contain;
+}
+
+/* PlayScope 文字：Play 白色 */
+.site-header .brand .brand-name {
+  display: inline-flex;
+  align-items: center;
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 900;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+
+/* Scope 橘色 */
+.site-header .brand .brand-name span {
+  color: #f97316;
+}
+
+/* 手機版維持正常邊距 */
+@media (max-width: 720px) {
+  .site-header .header-inner {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .site-header .brand {
+    gap: 8px;
+  }
+
+  .site-header .site-logo {
+    height: 43px;
+  }
+
+  .site-header .brand .brand-name {
+    font-size: 19px;
+  }
+}
+
 /* PlayScope 首頁上方留白調整 */
 .intro {
   padding-top: 30px;
