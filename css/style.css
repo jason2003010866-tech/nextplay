@@ -35,3 +35,49 @@
     max-width: 170px;
   }
 }
+
+/* PlayScope 導覽列品牌調整 */
+.header-inner {
+  max-width: 1280px;
+}
+
+.site-header .brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.site-logo {
+  height: 60px;
+  width: auto;
+  max-width: 200px;
+  object-fit: contain;
+}
+
+.site-header .brand-name {
+  display: inline-flex;
+  align-items: center;
+  font-size: 28px;
+  font-weight: 900;
+  letter-spacing: -1px;
+  color: #ffffff;
+}
+
+.site-header .brand-name span {
+  color: #f97316;
+}
+
+@media (max-width: 720px) {
+  .site-logo {
+    height: 43px;
+    max-width: 145px;
+  }
+
+  .site-header .brand {
+    gap: 7px;
+  }
+
+  .site-header .brand-name {
+    font-size: 19px;
+  }
+}
