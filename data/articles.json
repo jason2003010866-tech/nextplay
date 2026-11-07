@@ -1,0 +1,74 @@
+[
+  {
+    "id": "game-01",
+    "title": "新手入門：如何建立自己的遊戲攻略閱讀清單？",
+    "category": "game",
+    "categoryLabel": "遊戲攻略",
+    "date": "2026-11-07",
+    "summary": "從遊戲類型、操作設定到攻略資訊，整理入門時值得注意的方向。",
+    "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1200&q=80",
+    "url": "articles/game-01.html",
+    "featured": true,
+    "author": "NEXTPLAY 編輯部"
+  },
+  {
+    "id": "sports-01",
+    "title": "看懂籃球比賽：從基本規則到場上戰術",
+    "category": "sports",
+    "categoryLabel": "籃球",
+    "date": "2026-11-06",
+    "summary": "認識籃球賽事中的常見術語與基本戰術，讓觀賽更有趣。",
+    "image": "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=1200&q=80",
+    "url": "articles/sports-01.html",
+    "featured": true,
+    "author": "NEXTPLAY 編輯部"
+  },
+  {
+    "id": "game-02",
+    "title": "電競賽事入門：第一次看比賽要注意什麼？",
+    "category": "game",
+    "categoryLabel": "電競",
+    "date": "2026-11-05",
+    "summary": "從賽制、隊伍到轉播資訊，快速了解電競賽事的觀看方式。",
+    "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1200&q=80",
+    "url": "articles/game-02.html",
+    "featured": true,
+    "author": "NEXTPLAY 編輯部"
+  },
+  {
+    "id": "sports-02",
+    "title": "棒球觀賽指南：常見數據與比賽節奏",
+    "category": "sports",
+    "categoryLabel": "棒球",
+    "date": "2026-11-04",
+    "summary": "從投打對決到基本數據，認識棒球比賽的看點。",
+    "image": "https://images.unsplash.com/photo-1508344928928-7165b7c40e74?w=1200&q=80",
+    "url": "articles/sports-02.html",
+    "featured": false,
+    "author": "NEXTPLAY 編輯部"
+  },
+  {
+    "id": "game-03",
+    "title": "遊戲評測怎麼看？從畫面到操作手感的五個面向",
+    "category": "game",
+    "categoryLabel": "遊戲評測",
+    "date": "2026-11-03",
+    "summary": "建立閱讀遊戲評測的基本框架，找到適合自己的作品。",
+    "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=1200&q=80",
+    "url": "articles/game-03.html",
+    "featured": false,
+    "author": "NEXTPLAY 編輯部"
+  },
+  {
+    "id": "sports-03",
+    "title": "足球入門：位置分工與常見比賽術語",
+    "category": "sports",
+    "categoryLabel": "足球",
+    "date": "2026-11-02",
+    "summary": "了解球場上的位置與戰術角色，輕鬆跟上足球賽事。",
+    "image": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=1200&q=80",
+    "url": "articles/sports-03.html",
+    "featured": false,
+    "author": "NEXTPLAY 編輯部"
+  }
+]
