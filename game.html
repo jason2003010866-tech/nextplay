@@ -60,24 +60,39 @@
   </header>
 
   <!-- Main -->
-  <main class="container">
+  
+<main class="container">
 
-    <!-- 遊戲專區介紹 -->
-    <div class="category-intro">
+  <!-- 遊戲專區主視覺 -->
+  <section class="category-hero">
+    <div class="category-hero-content">
       <p class="eyebrow">PLAYSCOPE / GAME</p>
-      <h1>遊戲專區</h1>
-      <p>遊戲新聞、攻略、評測與電競</p>
+
+      <h1>遊戲專區<span class="hero-dot">.</span></h1>
+
+      <p class="category-hero-desc">
+        掌握遊戲新聞、電競賽事與深度觀點。
+      </p>
+
+      <div class="category-tags" aria-label="遊戲內容主題">
+        <span>遊戲新聞</span>
+        <span>電競賽事</span>
+        <span>攻略評測</span>
+      </div>
     </div>
 
-    <!-- 文章列表 -->
-    <section class="section">
+    <div class="category-hero-icon" aria-hidden="true">✦</div>
+  </section>
 
-      <div class="section-heading">
-        <h2>全部文章</h2>
+  <!-- 文章列表 -->
+  <section class="section category-articles">
+
+    <div class="category-list-header">
+      <div>
+        <h2>最新遊戲文章</h2>
         <p id="article-count" aria-live="polite">文章載入中…</p>
       </div>
 
-      <!-- 排序功能 -->
       <div class="category-toolbar">
         <label for="sort-order">文章排序</label>
 
@@ -87,33 +102,33 @@
           <option value="title">標題筆畫／字母順序</option>
         </select>
       </div>
+    </div>
 
-      <!-- 文章卡片 -->
-      <div id="category-grid" class="card-grid">
-        <p class="loading">文章載入中…</p>
-      </div>
+    <div id="category-grid" class="card-grid">
+      <p class="loading">文章載入中…</p>
+    </div>
 
-      <!-- 載入更多 -->
-      <div class="section-actions">
-        <button
-          id="load-more"
-          class="load-more"
-          type="button"
-          hidden
-        >
-          載入更多文章
-        </button>
-      </div>
+    <div class="section-actions">
+      <button
+        id="load-more"
+        class="load-more"
+        type="button"
+        hidden
+      >
+        載入更多文章
+      </button>
+    </div>
 
-      <p
-        id="category-status"
-        class="sr-only"
-        role="status"
-        aria-live="polite"
-      ></p>
+    <p
+      id="category-status"
+      class="sr-only"
+      role="status"
+      aria-live="polite"
+    ></p>
 
-    </section>
-  </main>
+  </section>
+</main>
+
 
   <!-- Footer -->
   <footer class="site-footer">
