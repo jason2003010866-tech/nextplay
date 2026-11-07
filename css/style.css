@@ -455,24 +455,12 @@ body[data-category] .category-hero-icon {
   #featured-grid {
     grid-template-columns: minmax(0, 1fr);
     grid-template-rows: none;
-  }
-
+ /* 只調整手機版首頁焦點文章比例 */
+@media (max-width: 720px) {
   #featured-grid .featured-card:first-child {
-    grid-row: auto;
-    aspect-ratio: 16 / 10;
+    aspect-ratio: 16 / 9;
     height: auto;
     min-height: 0;
     max-height: none;
-    overflow: hidden;
   }
-
-  #featured-grid .featured-card:first-child h3 {
-    font-size: 16px;
-    line-height: 1.35;
-  }
-
-  #featured-grid .featured-card:first-child .featured-content {
-    padding: 12px;
-  }
-
 }
