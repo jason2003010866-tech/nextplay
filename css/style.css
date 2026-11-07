@@ -147,3 +147,230 @@
 .intro {
   padding-top: 30px;
 }
+
+/* PlayScope 分類頁排版優化 */
+/* 僅影響遊戲與體育分類頁 */
+
+/* 分類頁標題區：減少留白 */
+.category-intro {
+  padding: 28px 26px 26px;
+  background: linear-gradient(110deg, #f3f7fb 0%, #ffffff 85%);
+  border-bottom: 1px solid var(--line);
+  border-radius: 0 0 12px 12px;
+}
+
+.category-intro .eyebrow {
+  margin: 0 0 8px;
+}
+
+.category-intro h1 {
+  margin: 0 0 8px;
+  font-size: clamp(30px, 4vw, 42px);
+  line-height: 1.3;
+}
+
+.category-intro p:last-child {
+  margin: 0;
+}
+
+/* 分類頁文章區：縮短區塊間距 */
+body[data-category] .section {
+  padding-top: 28px;
+}
+
+body[data-category] .section-heading {
+  margin-bottom: 14px;
+  padding-bottom: 12px;
+}
+
+/* 排序選單更緊湊 */
+body[data-category] .category-toolbar {
+  margin-bottom: 16px;
+}
+
+/* 手機版 */
+@media (max-width: 720px) {
+  .category-intro {
+    padding: 24px 18px;
+  }
+
+  body[data-category] .section {
+    padding-top: 24px;
+  }
+}
+
+/* ===================================
+   PlayScope 分類頁新版設計
+   只影響遊戲、體育分類頁
+=================================== */
+
+/* 深藍色專區橫幅 */
+body[data-category] .category-hero {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 245px;
+  margin-top: 24px;
+  padding: 36px 42px;
+  border-radius: 14px;
+  background: #102a43;
+  color: #ffffff;
+}
+
+body[data-category] .category-hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+body[data-category] .category-hero .eyebrow {
+  margin: 0 0 14px;
+  color: #fb923c;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+body[data-category] .category-hero h1 {
+  margin: 0;
+  color: #ffffff;
+  font-size: clamp(34px, 4vw, 48px);
+  line-height: 1.2;
+}
+
+body[data-category] .hero-dot {
+  color: #f97316;
+}
+
+body[data-category] .category-hero-desc {
+  margin: 14px 0 22px;
+  color: #cbd5e1;
+  font-size: 16px;
+}
+
+body[data-category] .category-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+body[data-category] .category-tags span {
+  padding: 7px 13px;
+  border: 1px solid rgba(255,255,255,.14);
+  border-radius: 999px;
+  background: rgba(255,255,255,.08);
+  color: #ffffff;
+  font-size: 13px;
+}
+
+body[data-category] .category-hero-icon {
+  position: absolute;
+  right: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgba(249,115,22,.22);
+  font-size: 150px;
+  line-height: 1;
+  pointer-events: none;
+}
+
+/* 文章列表標題與排序整合 */
+body[data-category] .category-articles {
+  padding-top: 34px;
+}
+
+body[data-category] .category-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 24px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+body[data-category] .category-list-header h2 {
+  margin: 0 0 6px;
+  padding-left: 14px;
+  border-left: 5px solid #f97316;
+  color: #102a43;
+  font-size: 24px;
+}
+
+body[data-category] .category-list-header p {
+  margin: 0 0 0 19px;
+  color: #8293a6;
+  font-size: 13px;
+}
+
+body[data-category] .category-list-header .category-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+}
+
+body[data-category] .category-list-header .category-toolbar label {
+  white-space: nowrap;
+}
+
+/* 橫式文章卡片：只套用分類頁 */
+body[data-category] #category-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+body[data-category] #category-grid > a,
+body[data-category] #category-grid > article {
+  width: 100%;
+  max-width: none;
+}
+
+/* 對應既有文章卡片的常見結構 */
+@media (min-width: 721px) {
+  body[data-category] #category-grid .article-card,
+  body[data-category] #category-grid .card {
+    display: grid;
+    grid-template-columns: minmax(230px, 36%) minmax(0, 1fr);
+    align-items: stretch;
+    overflow: hidden;
+  }
+
+  body[data-category] #category-grid .article-card img,
+  body[data-category] #category-grid .card img {
+    width: 100%;
+    height: 100%;
+    min-height: 210px;
+    object-fit: cover;
+  }
+}
+
+/* 手機版 */
+@media (max-width: 720px) {
+  body[data-category] .category-hero {
+    min-height: auto;
+    margin-top: 16px;
+    padding: 30px 22px;
+  }
+
+  body[data-category] .category-hero-icon {
+    right: 12px;
+    font-size: 95px;
+  }
+
+  body[data-category] .category-hero-desc {
+    font-size: 14px;
+  }
+
+  body[data-category] .category-list-header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  body[data-category] .category-list-header .category-toolbar {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
