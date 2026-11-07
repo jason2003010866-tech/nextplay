@@ -1,17 +1,222 @@
+
 <!doctype html>
-<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>【文章標題】｜NEXTPLAY</title><meta name="description" content="【文章摘要】"><meta name="theme-color" content="#102A43">
-<link rel="stylesheet" href="../css/style.css"><script src="../js/article.js" defer></script></head>
+<html lang="zh-Hant">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>【文章標題】｜PlayScope</title>
+  <meta name="description" content="【文章摘要】">
+  <meta name="theme-color" content="#101820">
+
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/article.js" defer></script>
+
+  <!-- Open Graph -->
+  <meta property="og:site_name" content="PlayScope">
+  <meta property="og:locale" content="zh_TW">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="【文章標題】｜PlayScope">
+  <meta property="og:description" content="【文章摘要】">
+  <meta property="og:image" content="【封面圖片網址】">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="【文章標題】｜PlayScope">
+  <meta name="twitter:description" content="【文章摘要】">
+  <meta name="twitter:image" content="【封面圖片網址】">
+
+  <!-- 每篇文章正式發布時，再填入對應的 canonical / og:url -->
+
+  <!-- GA4 -->
+  <script src="../js/analytics.js" defer></script>
+</head>
+
 <body data-article-id="【文章ID】">
-<header class="site-header"><div class="header-inner"><a class="brand" href="../index.html"><span class="brand-mark">▶</span>NEXT<span>PLAY</span></a><button class="menu-toggle" aria-label="開啟選單" aria-expanded="false">☰</button><nav class="main-nav"><a href="../index.html">首頁</a><a href="../game.html">遊戲</a><a href="../sports.html">體育</a></nav></div></header>
-<main class="container article-layout"><article><p class="article-breadcrumb"><a href="../index.html">首頁</a> / <span id="article-category">分類</span></p><p class="eyebrow" id="article-label">文章分類</p><h1>【文章標題】</h1><div class="article-byline"><span>作者：<strong id="article-author">NEXTPLAY 編輯部</strong></span><time id="article-date">【發布日期】</time></div>
-<img class="article-hero" src="【封面圖片網址】" alt="【封面圖片描述】"><p class="article-lead">【文章摘要】</p>
-<div class="article-tools" aria-label="文章分享"><span>分享文章</span><button type="button" id="share-native" class="article-action">分享</button><button type="button" id="share-copy" class="article-action">複製連結</button><a id="share-line" class="article-action" href="#" target="_blank" rel="noopener noreferrer">LINE</a><span id="share-feedback" role="status" aria-live="polite"></span></div>
-<nav class="article-toc" id="article-toc" aria-label="文章目錄" hidden><h2>文章目錄</h2><ol id="article-toc-list"></ol></nav>
-<div class="article-body">
-<h2>第一個段落標題</h2><p>請在這裡撰寫文章內文。每個段落可以使用 p 標籤。</p>
-<h2>第二個段落標題</h2><p>這裡是第二個段落。需要圖片時可以在內文加入 img 標籤，並填寫 alt 描述。</p>
-<h2>結語</h2><p>在這裡整理重點與你的觀點。</p>
-</div><div class="article-end"><span>— 文章結束 —</span><a href="../index.html">返回首頁</a></div></article>
-<section class="related-section" aria-labelledby="related-title"><h2 id="related-title">延伸閱讀</h2><div id="related-grid" class="card-grid"><p class="loading">載入相關文章中…</p></div></section>
-</main><footer class="site-footer"><div class="copyright">© 2026 NEXTPLAY</div></footer></body></html>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-inner">
+
+      <a class="brand" href="../index.html" aria-label="PlayScope 首頁">
+        <img
+          src="../assets/playscope-logo.png"
+          alt="PlayScope"
+          class="site-logo"
+        >
+      </a>
+
+      <button
+        class="menu-toggle"
+        aria-label="開啟選單"
+        aria-expanded="false"
+      >☰</button>
+
+      <nav class="main-nav" aria-label="主選單">
+        <a href="../index.html">首頁</a>
+        <a href="../game.html">遊戲</a>
+        <a href="../sports.html">體育</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main class="container article-layout">
+
+    <article>
+
+      <!-- 麵包屑導覽 -->
+      <p class="article-breadcrumb">
+        <a href="../index.html">首頁</a> /
+        <span id="article-category">分類</span>
+      </p>
+
+      <!-- 文章分類 -->
+      <p class="eyebrow" id="article-label">文章分類</p>
+
+      <!-- 文章標題 -->
+      <h1>【文章標題】</h1>
+
+      <!-- 作者與日期 -->
+      <div class="article-byline">
+        <span>
+          作者：
+          <strong id="article-author">PlayScope 編輯部</strong>
+        </span>
+
+        <time id="article-date">【發布日期】</time>
+      </div>
+
+      <!-- 文章封面 -->
+      <img
+        class="article-hero"
+        src="【封面圖片網址】"
+        alt="【封面圖片描述】"
+      >
+
+      <!-- 文章摘要 -->
+      <p class="article-lead">【文章摘要】</p>
+
+      <!-- 分享功能 -->
+      <div class="article-tools" aria-label="文章分享">
+        <span>分享文章</span>
+
+        <button
+          type="button"
+          id="share-native"
+          class="article-action"
+        >
+          分享
+        </button>
+
+        <button
+          type="button"
+          id="share-copy"
+          class="article-action"
+        >
+          複製連結
+        </button>
+
+        <a
+          id="share-line"
+          class="article-action"
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LINE
+        </a>
+
+        <span
+          id="share-feedback"
+          role="status"
+          aria-live="polite"
+        ></span>
+      </div>
+
+      <!-- 自動文章目錄 -->
+      <nav
+        class="article-toc"
+        id="article-toc"
+        aria-label="文章目錄"
+        hidden
+      >
+        <h2>文章目錄</h2>
+        <ol id="article-toc-list"></ol>
+      </nav>
+
+      <!-- 文章內文 -->
+      <div class="article-body">
+
+        <h2>第一個段落標題</h2>
+        <p>
+          請在這裡撰寫文章內文。
+          每個段落可以使用 p 標籤。
+        </p>
+
+        <h2>第二個段落標題</h2>
+        <p>
+          這裡是第二個段落。
+          需要圖片時可以在內文加入 img 標籤，
+          並填寫 alt 描述。
+        </p>
+
+        <h2>結語</h2>
+        <p>
+          在這裡整理重點與你的觀點。
+        </p>
+
+      </div>
+
+      <!-- 文章結尾 -->
+      <div class="article-end">
+        <span>— 文章結束 —</span>
+        <a href="../index.html">返回首頁</a>
+      </div>
+
+    </article>
+
+    <!-- 延伸閱讀 -->
+    <section
+      class="related-section"
+      aria-labelledby="related-title"
+    >
+      <h2 id="related-title">延伸閱讀</h2>
+
+      <div id="related-grid" class="card-grid">
+        <p class="loading">載入相關文章中…</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+
+      <div>
+        <div class="brand">
+          PLAY<span>SCOPE</span>
+        </div>
+
+        <p>Every Moment. Every Play.</p>
+        <p>每一瞬間的精彩，都值得被看見。</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="../index.html">首頁</a>
+        <a href="../game.html">遊戲</a>
+        <a href="../sports.html">體育</a>
+      </div>
+
+    </div>
+
+    <div class="copyright">
+      © 2026 PlayScope. All rights reserved.
+    </div>
+  </footer>
+
+</body>
+</html>
