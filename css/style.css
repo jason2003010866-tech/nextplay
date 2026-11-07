@@ -422,3 +422,29 @@ body[data-category] #category-grid > article {
 body[data-category] .category-hero-icon {
   display: none;
 }
+
+/* PlayScope 首頁焦點文章：手機版尺寸優化 */
+@media (max-width: 720px) {
+
+  /* 焦點文章主卡片 */
+  #featured-grid > :first-child {
+    min-height: 0;
+    height: 340px;
+    max-height: 340px;
+    overflow: hidden;
+  }
+
+  /* 圖片填滿卡片，不變形 */
+  #featured-grid > :first-child img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* 焦點文章標題縮小 */
+  #featured-grid > :first-child h3 {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+}
