@@ -81,3 +81,8 @@
     font-size: 19px;
   }
 }
+
+/* PlayScope 首頁上方留白調整 */
+.intro {
+  padding-top: 30px;
+}
