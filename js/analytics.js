@@ -1,13 +1,30 @@
-// NEXTPLAY GA4：填入你的 G-XXXXXXXXXX 評估 ID 才會啟用。
-// 請勿填入其他網站的 GA4 ID；localhost 不會傳送測試資料。
-const NEXTPLAY_GA4_ID = 'G-XXXXXXXXXX';
-if (/^G-[A-Z0-9]{6,}$/.test(NEXTPLAY_GA4_ID) && !/^(localhost|127\.0\.0\.1)$/.test(location.hostname)) {
+
+/* PlayScope GA4 追蹤設定 */
+const PLAYSCOPE_GA4_ID = 'G-JM630TENLP';
+
+// 本機測試時不傳送 GA4 資料
+const isLocal = ['localhost', '127.0.0.1'].includes(
+  window.location.hostname
+);
+
+if (!isLocal) {
+  // 建立 GA4 資料層
   window.dataLayer = window.dataLayer || [];
-  window.gtag = function(){window.dataLayer.push(arguments);};
+
+  window.gtag = function () {
+    window.dataLayer.push(arguments);
+  };
+
+  // 初始化 GA4
   window.gtag('js', new Date());
-  window.gtag('config', NEXTPLAY_GA4_ID);
-  const tag = document.createElement('script');
-  tag.async = true;
-  tag.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(NEXTPLAY_GA4_ID);
-  document.head.appendChild(tag);
+  window.gtag('config', PLAYSCOPE_GA4_ID);
+
+  // 載入 Google Analytics 追蹤程式
+  const script = document.createElement('script');
+  script.async = true;
+  script.src =
+    'https://www.googletagmanager.com/gtag/js?id=' +
+    encodeURIComponent(PLAYSCOPE_GA4_ID);
+
+  document.head.appendChild(script);
 }
