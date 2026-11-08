@@ -145,7 +145,9 @@ site = Element(
 
 for rel in paths:
     node = SubElement(site, "url")
-    SubElement(node, "loc").text = urljoin(base, rel)
+    SubElement(node, "loc").text = (
+    base if rel == "index.html" else urljoin(base, rel)
+)
 
     article = next(
         (a for a in articles if a["url"] == rel),
