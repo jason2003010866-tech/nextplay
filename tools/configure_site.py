@@ -58,7 +58,7 @@ for rel in paths:
 for rel in paths:
     file = ROOT / rel
     content = file.read_text(encoding="utf-8")
-    url = urljoin(base, rel)
+    url = base if rel == "index.html" else urljoin(base, rel)
 
     # 移除既有 Canonical 與 og:url，避免重複
     content = re.sub(
