@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jason2003010866-tech.github.io/nextplay/sitemap.xml
