@@ -1,4 +1,15 @@
+
 [
+  {
+    "title": "2026 英雄聯盟世界賽｜BLG 3：1 擊敗 T1！Bin 復仇成功、Faker 神話落幕",
+    "summary": "2026 英雄聯盟世界賽四強，BLG 以 3：1 擊敗 T1，終結世界賽對 LPL 的 BO5 不敗紀錄。回顧四局關鍵團戰、選手表現與 Bin 的復仇之戰。",
+    "category": "game",
+    "categoryLabel": "英雄聯盟",
+    "date": "2026-11-09",
+    "image": "https://s.yimg.com/lo/mysterio/api/7cf0ae5c54c9b8cc1ef51b7e26c7daa991a6990bffedc918acade231acd2d1c8/lightyear_networkapi/resizefill_w960%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2F55637806800-579af6042c-k_7284.jpg",
+    "url": "articles/playscope-blg-vs-t1-worlds-2026-semifinal.html",
+    "featured": true
+  },
   {
     "title": "2026《英雄聯盟》世界賽 BLG vs T1 四強對決！LPL 難以逾越的高山、Bin 哥的救贖之戰",
     "summary": "2026 英雄聯盟世界賽四強 BLG 對決 T1，回顧兩隊歷史恩怨、Faker 傳奇王朝與 Bin 的復仇之戰。",
@@ -7,7 +18,7 @@
     "date": "2026-11-07",
     "image": "https://s.yimg.com/lo/mysterio/api/16bb09df5c4699a530271af827662f48ea770f8cb8a90ee0be70afa6a8db10ab/lightyear_networkapi/resizefill_w960%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Fcover-2grid-1_9992.jpg",
     "url": "articles/nextplay-blg-vs-t1-2026.html",
-    "featured": true
+    "featured": false
   },
   {
     "title": "德州牛仔的重生之路：獨行俠換帥後找回競爭力，Cooper Flagg 能帶領達拉斯重返季後賽嗎？",
