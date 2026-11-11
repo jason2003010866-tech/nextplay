@@ -1,2 +1,28 @@
-<?xml version='1.0' encoding='utf-8'?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://jason2003010866-tech.github.io/nextplay/</loc></url><url><loc>https://jason2003010866-tech.github.io/nextplay/game.html</loc></url><url><loc>https://jason2003010866-tech.github.io/nextplay/sports.html</loc></url><url><loc>https://jason2003010866-tech.github.io/nextplay/articles/nextplay-blg-vs-t1-2026.html</loc><lastmod>2026-11-07</lastmod></url><url><loc>https://jason2003010866-tech.github.io/nextplay/articles/nextplay-dallas-mavericks-2026.html</loc><lastmod>2026-11-07</lastmod></url></urlset>
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://jason2003010866-tech.github.io/nextplay/</loc>
+  </url>
+  <url>
+    <loc>https://jason2003010866-tech.github.io/nextplay/game.html</loc>
+  </url>
+  <url>
+    <loc>https://jason2003010866-tech.github.io/nextplay/sports.html</loc>
+  </url>
+  <url>
+    <loc>https://jason2003010866-tech.github.io/nextplay/articles/nextplay-blg-vs-t1-2026.html</loc>
+    <lastmod>2026-11-07</lastmod>
+  </url>
+  <url>
+    <loc>https://jason2003010866-tech.github.io/nextplay/articles/nextplay-dallas-mavericks-2026.html</loc>
+    <lastmod>2026-11-07</lastmod>
+  </url>
+  <url>
+    <loc>https://jason2003010866-tech.github.io/nextplay/articles/playscope-blg-vs-t1-worlds-2026-semifinal.html</loc>
+    <lastmod>2026-11-09</lastmod>
+  </url>
+  <url>
+    <loc>https://jason2003010866-tech.github.io/nextplay/articles/playscope-gta6-buying-guide-2026.html</loc>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+</urlset>
