@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://jason2003010866-tech.github.io/nextplay/</loc>
@@ -10,22 +10,6 @@
     <loc>https://jason2003010866-tech.github.io/nextplay/sports.html</loc>
   </url>
   <url>
-    <loc>https://jason2003010866-tech.github.io/nextplay/articles/playscope-november-2026-games-top10.html</loc>
-    <lastmod>2026-11-22</lastmod>
-  </url>
-  <url>
-    <loc>https://jason2003010866-tech.github.io/nextplay/articles/playscope-tseng-jyun-yue-mlb-lockout-2026.html</loc>
-    <lastmod>2026-11-17</lastmod>
-  </url>
-  <url>
-    <loc>https://jason2003010866-tech.github.io/nextplay/articles/playscope-gta6-buying-guide-2026.html</loc>
-    <lastmod>2026-11-11</lastmod>
-  </url>
-  <url>
-    <loc>https://jason2003010866-tech.github.io/nextplay/articles/playscope-blg-vs-t1-worlds-2026-semifinal.html</loc>
-    <lastmod>2026-11-09</lastmod>
-  </url>
-  <url>
     <loc>https://jason2003010866-tech.github.io/nextplay/articles/nextplay-blg-vs-t1-2026.html</loc>
     <lastmod>2026-11-07</lastmod>
   </url>
@@ -34,11 +18,19 @@
     <lastmod>2026-11-07</lastmod>
   </url>
   <url>
-    <loc>https://jason2003010866-tech.github.io/nextplay/articles/playscope-blg-geng-worlds-2026-final.html</loc>
-    <lastmod>2026-11-20</lastmod>
+    <loc>https://jason2003010866-tech.github.io/nextplay/articles/playscope-blg-vs-t1-worlds-2026-semifinal.html</loc>
+    <lastmod>2026-11-09</lastmod>
   </url>
   <url>
-    <loc>https://jason2003010866-tech.github.io/nextplay/articles/playscope-nba-cup-2026-76ers.html</loc>
-    <lastmod>2026-11-21</lastmod>
+    <loc>https://jason2003010866-tech.github.io/nextplay/articles/playscope-gta6-buying-guide-2026.html</loc>
+    <lastmod>2026-11-11</lastmod>
   </url>
+  <url>
+  <loc>https://jason2003010866-tech.github.io/nextplay/articles/playscope-black-friday-games-2026.html</loc>
+  <lastmod>2026-11-25</lastmod>
+</url>
+<url>
+  <loc>https://jason2003010866-tech.github.io/nextplay/articles/playscope-blg-geng-worlds-2026-final.html</loc>
+  <lastmod>2026-11-20</lastmod>
+</url>
 </urlset>
